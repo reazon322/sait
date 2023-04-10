@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+table {
+border: 1px solid black;
+width: 100%;
+color: #588c7e;
+font-family: monospace;
+font-size: 15px;
+text-align: left;
+}
+td {
+border: 1px solid black;
+text-align: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+th {text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}

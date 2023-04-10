@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>АНИМЕ ИГРУЛЕЧКИ</title>
+<link href="css/mtd.css" rel="stylesheet" type="text/css">
+<link href="css/bbb.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+  <header>
+	  <nav class="secondary_header" id="menu">
+      <ul>
+        <li><a href="main.html">ГЛАВНАЯ СТРАНИЦА</a></li>
+        <li><a href="genres.html">ЖАНРЫ АНИМЕ</a></li>
+        <li><a href="gao.html">ГАО ЛИЦА</a></li>
+		 <li><a href="test.html">АНИМЕ ГАМЕСЫ</a></li>
+      </ul>
+    </nav>
+    <div class="primary_header">
+      <h1 class="title">АНИМЕ ИГРЫ&nbsp;</h1>
+    </div>
+  </header>
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+<script type="text/javascript" language="JavaScript">// <![CDATA[
+ var res="31124122433"; 
+function check_me()
+{
+    var count=0;
+    with(document.test) {
+if (!Q1[0].checked&&!Q1[1].checked&&!Q1[2].checked&&!Q1[3].checked)  
+{count+=1};  
+if (!Q2[0].checked&&!Q2[1].checked&&!Q2[2].checked&&!Q2[3].checked)  
+{count+=1};  
+if (!Q3[0].checked&&!Q3[1].checked&&!Q3[2].checked&&!Q3[3].checked)  
+{count+=1};  
+if (!Q4[0].checked&&!Q4[1].checked&&!Q4[2].checked&&!Q4[3].checked)  
+{count+=1};  
+if (!Q5[0].checked&&!Q5[1].checked&&!Q5[2].checked&&!Q5[3].checked)  
+{count+=1};  
+if (!Q6[0].checked&&!Q6[1].checked&&!Q6[2].checked&&!Q6[3].checked)  
+{count+=1};  
+if (!Q7[0].checked&&!Q7[1].checked&&!Q7[2].checked&&!Q7[3].checked)  
+{count+=1};  
+if (!Q8[0].checked&&!Q8[1].checked&&!Q8[2].checked&&!Q8[3].checked)  
+{count+=1};  
+if (!Q9[0].checked&&!Q9[1].checked&&!Q9[2].checked&&!Q9[3].checked)  
+{count+=1};  
+if (!Q10[0].checked&&!Q10[1].checked&&!Q10[2].checked&&!Q10[3].checked)  
+{count+=1};  
+if (!Q11[0].checked&&!Q11[1].checked&&!Q11[2].checked&&!Q11[3].checked)  
+{count+=1};  
+if (count>0) alert("Вы выполнили не все задания. Проверьте себя!")    
+        else answer();
+    }
+} 
+ 
+function control(k, f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11) {
+if (k==1&&f1.checked) return true;
+if (k==2&&f2.checked) return true;
+if (k==3&&f3.checked) return true;
+if (k==4&&f4.checked) return true;
+if (k==5&&f5.checked) return true;
+if (k==6&&f6.checked) return true;
+if (k==7&&f7.checked) return true;
+if (k==8&&f8.checked) return true;
+if (k==9&&f9.checked) return true;
+if (k==10&&f10.checked) return true;
+if (k==11&&f11.checked) return true;
+return false;
+}
+
+function answer() {
+answ="";
+     with(document)    {
+    answ+=control(res.charAt(0) ,test.Q1[0],test.Q1[1],test.Q1[2],test.Q1[3])?"1":"0";
+answ+=control(res.charAt(1) ,test.Q2[0],test.Q2[1],test.Q2[2],test.Q2[3])?"1":"0";
+answ+=control(res.charAt(2) ,test.Q3[0],test.Q3[1],test.Q3[2],test.Q3[3])?"1":"0";
+answ+=control(res.charAt(3) ,test.Q4[0],test.Q4[1],test.Q4[2],test.Q4[3])?"1":"0";
+answ+=control(res.charAt(4) ,test.Q5[0],test.Q5[1],test.Q5[2],test.Q5[3])?"1":"0";
+answ+=control(res.charAt(5) ,test.Q6[0],test.Q6[1],test.Q6[2],test.Q6[3])?"1":"0";
+answ+=control(res.charAt(6) ,test.Q7[0],test.Q7[1],test.Q7[2],test.Q7[3])?"1":"0";
+answ+=control(res.charAt(7) ,test.Q8[0],test.Q8[1],test.Q8[2],test.Q8[3])?"1":"0";
+answ+=control(res.charAt(8) ,test.Q9[0],test.Q9[1],test.Q9[2],test.Q9[3])?"1":"0";
+answ+=control(res.charAt(9) ,test.Q10[0],test.Q10[1],test.Q10[2],test.Q10[3])?"1":"0";
+answ+=control(res.charAt(10) ,test.Q11[0],test.Q11[1],test.Q11[2],test.Q11[3])?"1":"0";
+
+showResult();
+    }
+}
+ 
+function showResult()   {
+    var nok=0;
+    var i,s;
+ 
+for (i=0; i<answ.length;i++) {nok+=answ.charAt(i)=="1"?1:0;}
+if(nok==11) s="Точно мой братик:3";
+if(nok<11) s="Неплохо справился";
+if(nok<8.25) s="Почти ничего не знаешь";
+if (nok<5.5) s="Бака";
+    document.test.s1.
+    value="Братик, ты правильно ответил "+nok+" раз. Ты "+s+". Ты можешь посмотреть, где ты ошибся в окошке рядом с вопросом.";
+ 
+with(document.test)
+    {
+    if (answ.charAt(0)=="1") {T1.value=" + "} else {T1.value=" - "};
+   if (answ.charAt(1)=="1") {T2.value=" + "} else {T2.value=" - "};
+   if (answ.charAt(2)=="1") {T3.value=" + "} else {T3.value=" - "};
+   if (answ.charAt(3)=="1") {T4.value=" + "} else {T4.value=" - "};
+   if (answ.charAt(4)=="1") {T5.value=" + "} else {T5.value=" - "};
+   if (answ.charAt(5)=="1") {T6.value=" + "} else {T6.value=" - "};
+   if (answ.charAt(6)=="1") {T7.value=" + "} else {T7.value=" - "};
+   if (answ.charAt(7)=="1") {T8.value=" + "} else {T8.value=" - "};
+   if (answ.charAt(8)=="1") {T9.value=" + "} else {T9.value=" - "};
+   if (answ.charAt(9)=="1") {T10.value=" + "} else {T10.value=" - "};
+   if (answ.charAt(10)=="1") {T11.value=" + "} else {T11.value=" - "};
+     }
+}
+function showhide(obj){
+    if(obj == 'none') return 'inline';
+    else return 'none';
+}
+// ]]>
+</script>
+
+<center><b><h2>Насколько хорошо вы знаете аниме-игры?</b></h2></center><br/><br/>
+&nbsp;&nbsp;&nbsp;<span class=span style="color:#E5B7F9;cursor:pointer;" onclick="document.getElementById('instruction').style.display = showhide(document.getElementById('instruction').style.display)">
+Инструкция</span>
+ <br/>
+<div id="instruction" style="display: none; width: 100%;">
+<ul>
+<li>Выбери один из вариантов в каждом из 11 вопросов;</li>
+<li>Нажми на кнопку "Показать результат";</li>
+<li>Ты не узнаешь свой результат, пока не ответишь на все вопросы;</li>
+<li>Загляни в окно рядом с номером задания. Если ответ правильный, то там (+). Если ошибся, там (-).</li>
+<li>За каждый правильный ответ начисляется 1 балл;</li>
+<li>Чтобы сбросить результат тестирования, нажать кнопку "Сбросить ответы";</li>
+</ul>
+</div>
+<form name="test" class="f"><ol>
+	<div class="row">
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="images/test/109005.png" alt="" class="thumbnail"/> </p>
+
+
+<h4 ><li><INPUT type="text" size="1" value="" name="T1" readonly/><b> Сколько всего девушек в оригинальной HuniePop?</b><br/></h4>
+<input type="radio" value="0" name="Q1"/> 8<br />
+<input type="radio" value="1" name="Q1"/> 10<br />
+<input type="radio" value="2" name="Q1"/> 12<br />
+<input type="radio" value="3" name="Q1"/> 14<br />
+</div>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="images/test/soulworker_ba.jpg" alt="" class="thumbnail"/> </p>
+<h4  style="margin-left: 10px;"></li><li><INPUT type="text" size="1" value="" name="T2" readonly /><b> В каком жанре игра SoulWorker?</b><br/></h4>
+<input type="radio" value="0" name="Q2"/> MMO-RPG<br />
+<input type="radio" value="1" name="Q2"/> FPS<br />
+<input type="radio" value="2" name="Q2"/> Головоломка<br />
+<input type="radio" value="3" name="Q2"/> Визуальная новелла<br />
+	</div>
+	<div class="columns">
+		<p class="thumbnail_align"> <img src="images/test/everlastingsummer.jpg" alt="" class="thumbnail"/> </p>
+</li><h4 style="margin-left: 10px;"><li><INPUT type="text" size="1" value="" name="T3" readonly/><b> Как зовут ГГ Бесконечного Лета?</b></h4><br/>
+<input type="radio" value="0" name="Q3"/> Семён<br />
+<input type="radio" value="1" name="Q3"/> Никита<br />
+<input type="radio" value="2" name="Q3"/> Максим<br />
+<input type="radio" value="3" name="Q3"/> Александр<br />
+	</div>
+	<div class="columns">
+		<p class="thumbnail_align"> <img src="images/test/1565962618.png" alt="" class="thumbnail"/> </p>
+</li><h4><li><INPUT type="text" size="1" value="" name="T4" readonly/><b> Кто во всём виноват в DDLC?</b></h4><br/>
+<input type="radio" value="0" name="Q4"/> Натсуки<br />
+<input type="radio" value="1" name="Q4"/> Моника<br />
+<input type="radio" value="2" name="Q4"/> Юри<br />
+<input type="radio" value="3" name="Q4"/> Сайори<br />
+	</div>
+	  </div>
+	<div class="row">
+	<div class="columns">
+		<p class="thumbnail_align"> <img src="images/test/azur.jpg" alt="" class="thumbnail"/> </p>
+<br/></li><h4><li><INPUT type="text" size="1" value="" name="T5" readonly/><b> О чём игра Azur Lane?</b></h4><br/>
+<input type="radio" value="0" name="Q5"/> О самолётах<br />
+<input type="radio" value="1" name="Q5"/> О вертолётах<br />
+<input type="radio" value="2" name="Q5"/> О автомобилях<br />
+<input type="radio" value="3" name="Q5"/> О кораблях<br />
+		</div>
+	<div class="columns">
+	<p class="thumbnail_align"> <img src="images/test/dcd.png" alt="" class="thumbnail"/> </p>	
+<br/></li><h4><li><INPUT type="text" size="1" value="" name="T6" readonly/><b> Кто лучше всех бегает в Katawa Shoujo?</b></h4><br/>
+<input type="radio" value="0" name="Q6"/> Эми<br />
+<input type="radio" value="1" name="Q6"/> Сидзуне<br />
+<input type="radio" value="2" name="Q6"/> Ханако<br />
+<input type="radio" value="3" name="Q6"/> Рин<br />
+	 	</div>
+	<div class="columns">
+	<p class="thumbnail_align"> <img src="images/test/aa.png" alt="" class="thumbnail"/> </p>	
+<br/></li><h4><li><INPUT type="text" size="1" value="" name="T7" readonly/><b> Где происходит действие игры Yandere Simulator?</b></h4><br/>
+<input type="radio" value="0" name="Q7"/> В университете<br />
+<input type="radio" value="1" name="Q7"/> В школе<br />
+<input type="radio" value="2" name="Q7"/> В спортивном зале<br />
+<input type="radio" value="3" name="Q7"/> В парке<br />
+		</div>
+	<div class="columns">
+	<p class="thumbnail_align"> <img src="images/test/111.png" alt="" class="thumbnail"/> </p>	
+<br/></li><h4><li><INPUT type="text" size="1" value="" name="T8" readonly/><b> Сколько костюмов у Наруто в Naruto: Ultimate Ninja Storm?</b></h4><br/>
+<input type="radio" value="0" name="Q8"/> 1<br />
+<input type="radio" value="1" name="Q8"/> 2<br />
+<input type="radio" value="2" name="Q8"/> 3<br />
+<input type="radio" value="3" name="Q8"/> 4<br />
+		</div>
+</div>
+<div class="row">
+	<div class="columns">
+	<p class="thumbnail_align"> <img src="images/test/confirm_chibi_hikaru.png" alt="" class="thumbnail"/> </p>	
+<br/></li><h4><li><INPUT type="text" size="1" value="" name="T9" readonly/><b> Как называется родной город Рин в Eternal Hour?</b></h4><br/>
+<input type="radio" value="0" name="Q9"/> Осака<br />
+<input type="radio" value="1" name="Q9"/> Киото<br />
+<input type="radio" value="2" name="Q9"/> Токио<br />
+<input type="radio" value="3" name="Q9"/> Кумивара<br />
+		</div>
+	<div class="columns">
+	<p class="thumbnail_align"> <img src="images/test/liza.jpg" alt="" class="thumbnail"/> </p>	
+<br/></li><h4 style="margin-left: 17px;"><li><INPUT type="text" size="1" value="" name="T10" readonly/><b> Как зовут главную героиню Sweet F. Cake?</b></h4><br/>
+<input type="radio" value="0" name="Q10"/> Лена<br />
+<input type="radio" value="1" name="Q10"/> Лёля<br />
+<input type="radio" value="2" name="Q10"/> Лиза<br />
+<input type="radio" value="3" name="Q10"/> Алёна<br />
+		</div>
+	<div class="columns">
+	<p class="thumbnail_align"> <img src="images/test/main.png" alt="" class="thumbnail"/> </p>	
+<br/></li><h4 style="margin-left: 17px;"><li><INPUT type="text" size="1" value="" name="T11" readonly/><b> Сколько частей Некопары выпущено на данный момент?</b></h4><br/>
+<input type="radio" value="0" name="Q11"/> 2<br />
+<input type="radio" value="1" name="Q11"/> 3<br />
+<input type="radio" value="2" name="Q11"/> 4<br />
+<input type="radio" value="3" name="Q11"/> 5<br />
+	</div>
+</div>
+<br/></li></ol>
+
+<CENTER>
+<P><TEXTAREA name="s1" rows="4" cols="70" readonly style="resize: none"> </TEXTAREA> </P>
+<INPUT class="button" onclick="check_me()" type="button" value="Показать результат"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+<INPUT class="button" type="reset" value="Сбросить ответы"/> 
+</CENTER>        
+</form>  </aside>
+  </section>
+  <div class="row blockDisplay">
+    <div class="column_hal left_half">
+      <h2 class="column_title">ГЛАВНЫЕ ИДИОТЫ</h2>
+    </div>
+    <div class="column_hal right_half">
+      <h2 class="column_title">ПРИНИМАВШИЕ УЧАСТИЕ</h2>
+    </div>
+  </div>
+  <div class="social">
+	<a class="social_icon" href="https://vk.com/iamnotyourwaifu" target="_blank"><img src="images/bkg5.jpg" width="100" alt="" class="thumbnail"/></a> 
+    <a class="social_icon"href="https://vk.com/satanic_mother_fucker" target="_blank"><img src="images/bkg322.jpg" width="100" alt="" class="thumbnail"/></a>
+    <a class="social_icon" href="https://vk.com/id492758400" target="_blank"><img src="images/bkg4.jpg" width="100" alt="" class="thumbnail"/></a>
+  </div>
+	
+  <footer class="secondary_header footer">
+    <div class="copyright">&copy;2020 - <strong>некогда Рой идиотов</strong></div>
+  </footer>
+</div>
+</body>
+</html>
+
+
+	
+</body>
+</html>
